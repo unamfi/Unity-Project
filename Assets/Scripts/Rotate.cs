@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Rotate : MonoBehaviour {
 
-    public Vector3 rotation;
+    [HideInInspector] public Vector3 rotation;
+    [SerializeField] private Vector3 rotation2;
 
 	// Use this for initialization
 	void Start () {
